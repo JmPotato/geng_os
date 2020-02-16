@@ -1,0 +1,16 @@
+[package]
+name = "geng_os"
+version = "0.1.0"
+authors = ["JmPotato <ghzpotato@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bootloader = "0.6.0"
+spin = "0.4.9"
+volatile = "0.2.3"
+
+[dependencies.lazy_static]
+version = "1.0"
+features = ["spin_no_std"]
